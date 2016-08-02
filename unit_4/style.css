@@ -8,6 +8,9 @@ background: url("images/alfa.jpg");
 background-size: cover; background-repeat: no-repeat;
 
 }
+div {background: #ffffff; opacity: 0.4;
+display: inline-block;
+}
 h1 {text-align: center;
 	color: #00cccc; font-style: italic;
 
@@ -19,9 +22,10 @@ text-decoration-style: all;
 }
 h2 {font-family: forte; font-style: italic;
 }
-a {text-align: right; /*I can't move it to the right*/
+a {text-align: right;
  color: #00cccc; font-family: forte; font-size: 20px; font-style: italic;
 }
-p {text-align: left; font-family: 'great vibes',cursive; font-size: 3em; color: black; margin: .4em; font-weight: 900;}
 
+p {text-align: left; font-family: 'great vibes',cursive; font-size: 1em; color: black; margin: .4em; font-weight: 900;}
+ul {text-align: left; font-family: 'great vibes',cursive; font-size: 3em; color: black; margin: .1em; font-weight: 900; padding: 1em 1em 1em 1em}
 
