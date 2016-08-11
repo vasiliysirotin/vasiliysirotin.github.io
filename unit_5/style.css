@@ -7,19 +7,21 @@ background-size: cover; background-repeat: no-repeat;
 font-family: forte;
 }
 
-/*#line {
+#line {
 	width:1920px;
 	height:71px;
-	background-color: rgba(255,255,255, .3);
-	position: 	absolute; top:0;}*/
+	background-color: rgba(0,204,204, .5);
+	position:absolute; top:0; left:0;
+	z-index: -1;
+}
 
 /* HOW CAN I BRING THE TEXT IN FRONT OF THE BOX?*/
 
-/*article {
+article {
 	background: rgba(255,255,255, .2);
 	display: inline-block;
 	margin: 0;
-	position: absolute; top: 400px;*/
+	position: absolute; top: 400px;
 }
 h1 {
 	text-align: center;
@@ -31,7 +33,7 @@ h1 {
 	font-size: 4EM;
 	text-decoration-style: all; 
 }
-S
+
 h2 {
 	font-family: forte; font-style: italic;
 }
@@ -70,7 +72,7 @@ ul {
 
 #contact {
 	color: #000000;
-	background-color: rgba(255,255,255, .6);
+	/*background-color: rgba(255,255,255, .6);
 	/*opacity: 0.1;*/
 	font-family: forte;
 	font-size: 30px;
@@ -78,18 +80,17 @@ ul {
 	position: absolute; Top:15px; right: 50px;
 	padding: 0px 5px 0px 5px;
 }
-#Reviews {
+#reviews {
 	color: #000;
-	background-color: #fff;
-	opacity: 0.4;
+	/*background-color: #fff;
+	*opacity: 0.4;*/
 	font-family: forte;
 	font-size: 30px;
 	font-style: italic;
 	position: absolute; Top:15px; right: 220px;
 	padding: 0px 7px 0px 5px;
-
-}
-#About {
+	}
+#about {
 	color: #000;
 	/*background-color: #fff;*/
 	/*opacity: 0.4;*/
@@ -99,26 +100,46 @@ ul {
 	position: absolute; Top:15px; right: 350px;
 	padding: 0px 7px 0px 5px;
 }
+hr {color: #00cccc;
+	background-color: #00cccc;
+height: 3px;
+width: 1900px;
+}
 
-header {
+#contact:hover {
+	background-color: rgba(255,255,255, .2);
+}
+
+#about:hover {
+	background-color: rgba(255,255,255, .2);
+}
+#reviews:hover {
+	background-color: rgba(255,255,255, .2);
+}
+
+
+
+
+
+/*header {
     background-color: #FFED74;
     border: 1px black solid;
     padding: 10px;
-    display: inline-block;
+    display: inline-block;*/
 
 }
-article {background-color: #e89c6c;
+/*article {background-color: #e89c6c;
+		border: 1px black solid;
+		padding: 10px;
+		display: inline-block;}*/
+
+
+/*nav {background-color: #e8c66a;
 		border: 1px black solid;
 		padding: 10px;
 		display: inline-block;}
 
-
-nav {background-color: #e8c66a;
-		border: 1px black solid;
-		padding: 10px;
-		display: inline-block;}
-
-aside {background-color: #FFC675;
+/*aside {background-color: #FFC675;
 		border: 1px black solid;
 		padding: 10px;
 		display: inline-block;}
@@ -129,7 +150,7 @@ footer {background-color: #FF957E;
 		display: inline-block;}
 
 
-/*- header = #FFED74
+- header = #FFED74
 - nav = #E8C66A
 - aside = #FFC675
 - article = #E89C6C
