@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext);
+
+body {
+background: url("images/alfa.jpg");
+background-size: auto; background-repeat: no-repeat;
+font-family: forte;
+}
+
+article {
+	font-family: 'great vibes',cursive;
+	letter-spacing: 2px; 
+	background: rgba(255,255,255, .2);
+	display: inline-block;
+	margin: 0px 0px 0px 20px;
+	padding: 5px 5px 5px 5px;
+}
+h1 {
+	text-align: center;
+	color: #00cccc;
+	background: rgba(255,255,255, .2);
+	
+	font-style: italic;
+	font-family: forte;
+	letter-spacing: 5px;
+	font-size: 4em;
+	margin: 300px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	clear: both;
+}
+h2 {
+	font-family: forte; font-style: italic;
+	margin: 0;
+	padding: 1em; 
+}
+img {width: 50px;
+	margin: 0px 0px 0px 110px;
+	}
+a {
+	color: #000;
+	font-family: forte;
+	font-size: 30px;
+	font-style: italic;
+	text-decoration: none;
+	display: inline-block;	
+}
+
+p {
+	text-align: left;
+	font-family: 'great vibes',cursive;
+	font-size: 2em;
+	color: black;
+    margin: 20px 20px 0px 30px;
+    font-weight: 900;
+}
+ul {
+	list-style: disc;
+	text-align: left;
+	font-family: 'great vibes', cursive;
+	font-size: 2em; color: black;
+	margin: 25px 20px 10px 30px;
+	font-weight: 900;
+     }
+li {
+	padding: 10px 0px 10px 0px;
+}
+#contact {
+	color: #000000;
+	font-family: forte;
+	font-size: 30px;
+	font-style: italic;
+	padding: 0px 5px 0px 5px;
+}
+#reviews {
+	color: #000;
+	font-family: forte;
+	font-size: 30px;
+	font-style: italic;
+	padding: 0px 7px 0px 5px;
+	}
+#about {
+	color: #000;
+	font-family: forte;
+	font-size: 30px;
+	font-style: italic;
+	padding: 0px 7px 0px 0px;
+}
+hr {color: #00cccc;
+	background-color: #00cccc;
+	height: 3px;
+	width: 1900px;
+}
+#navigation {
+	width: 35%;
+	display: inline-block;
+	float: right;
+	background: rgba(0,204,204, .7);
+	padding: 1px 1px 1px 1px;
+	z-index: -3;
+	}
+
+#navigation a {
+	width: 22%;
+	float:right;
+	display: inline-block;
+	background: rgba(0,204,204, .5);
+	padding: 10px 10px 10px 10px;
+	margin: 5px 5px 5px 5px;
+	clear: left;
+	z-index: -2;
+	}
+
+#contact:hover {
+	background-color: rgba(255,255,255, .2);
+	}
+
+#about:hover {
+	background-color: rgba(255,255,255, .9);
+	}
+#reviews:hover {
+	background-color: rgba(255,255,255, .2);
+	}
+#buycar {
+	float: right;
+	color: #000000;
+	font-family: forte;
+	font-size: 30px;
+	font-style: italic;
+	padding: 0px 5px 0px 5px;
+	}
+#sellcar {
+	color: #000000;
+	font-family: forte;
+	font-size: 30px;
+	font-style: italic;
+	padding: 0px 5px 0px 5px;
+	}
+#car {
+	float: right;
+	background: rgba(0,204,204, .7);
+	padding: 7px 7px 7px 7px;
+	margin: 13% 60% 0px 0px;
+	}
+#car a {
+background: rgba(0,204,204, .5);
+padding: 7px 37px 7px 37px;
+margin: 20px 10px 20px 10px;
+	}
+#buyauto {
+	display: inline-block;
+	clear: left;
+	}
+header {
+	float: left;
+}
+#text {
+	display: inline-block;
+	vertical-align: top;
+}
+#logocar {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+}
+
+
+/* hover do not work*/
+/*How to avoid collision of navigation when zooming*/
+/* How to move car image after "find your" without setting absolute position*/
+/can I use % in margin and padding

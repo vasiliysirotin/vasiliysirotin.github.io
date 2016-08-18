@@ -20,25 +20,32 @@ font-family: forte;
 
 article {
 	font-family: 'great vibes',cursive, ;
-	/*background: rgba(255,255,255, .2);*/
+	background: rgba(255,255,255, .2);
 	display: inline-block;
 	margin: 0;
-	/*position: absolute; top: 400px;*/
+	position: absolute; top: 400px;
 }
 h1 {
 	text-align: center;
-	position: absolute; TOP:150px; left: 450px;
 	color: #00cccc;
 	font-style: italic;
 	font-family: forte;
-	letter-spacing: 2px;
-	font-size: 4EM;
-	text-decoration-style: all; 
+	letter-spacing: 5px;
+	font-size: 3.5EM;
+	padding: 300px 10px 10px 10px;
+
 }
 
 h2 {
 	font-family: forte; font-style: italic;
+	margin: 1em; 
 }
+img {position: absolute;
+	width: 50px;
+	padding: 10px;
+
+}
+
 a {
 	color: #000;
 	font-family: forte;
@@ -50,7 +57,7 @@ a {
 p {
 	text-align: left;
 	font-family: 'great vibes',cursive;
-	font-size: 2.3em;
+	font-size: 2em;
 	/*background-color: rgba(255,255,255, .4);*/
 	/*display: inline-block;*/
 	color: black;
@@ -65,7 +72,7 @@ ul {
 	/*background-color: rgba(255,255,255, .4);*/
 	/*display: inline-block;*/
 	font-family: 'great vibes', cursive;
-	font-size: 2.3em; color: black;
+	font-size: 2em; color: black;
 	/*position: absolute; top: 350px;*/
 	margin: 25px 30px 20px 0px;
 	font-weight: 900;
@@ -126,11 +133,12 @@ padding: 27px 27px 27px 27px;*/ }
 
 #navigation a {float: right;
 display: inline-block;
+clear: right;
 background: rgba(0,204,204, .5);
 padding: 27px 27px 27px 27px;
 margin: 20px 10px 20px 10px}
 
-#two_column {
+/*#two_column {
 	background-color: #ffb7cf;
 	border: 1px black solid;
 	padding: 20px;
@@ -149,14 +157,12 @@ margin: 20px 10px 20px 10px}
 	float: right;
 	width: 62%;
 }
-.cleafix:after {
+.clearfix:after {
 	visibility: hidden;
 	display: block;
     font-size: 0;
     content: " ";
     clear: both;
-    height: 0;
-}
+    height: 4;
+}*/
 
- /*Questions: does it matter, which order of the link?*/
-/*Lorem ipsum - what is the syntaxis
