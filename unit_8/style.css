@@ -20,14 +20,16 @@ article {
 h1 {
     text-align: center;
     color: #00cccc;
-    background: rgba(255,255,255, .2);
+    background: rgba(255,255,255, .4);
     font-style: italic;
     font-family: forte;
     letter-spacing: 5px;
     font-size: 3em; 
     width: 50%;
     float: center;
-    clear: both;
+    margin: 0 auto;
+
+
    
 }
 h2 {
@@ -35,6 +37,7 @@ h2 {
 	margin: 0;
 	font-size: 1em;
 	padding: 1em; 
+
 }
 /*a {
 	color: #000;
@@ -53,55 +56,64 @@ p {
     margin: 20px 20px 0px 30px;
     font-weight: 900;
 }
-ul {
+
+ul {width: 80px;
+	margin-left:300px;}
+/*ul {
 	list-style: disc;
 	text-align: left;
 	font-family: 'great vibes', cursive;
 	font-size: 2em; color: black;
 	margin: 25px 20px 10px 30px;
-	font-weight: 900;
-     }
-li {
-	padding: 10px 0px 10px 0px;
-}
-#contact {
-	color: #000000;
+	font-weight: 900;}*/
+     
+#about {
 	font-family: forte;
 	font-style: italic;
-	padding: 0px 15px 0px 5px;
 }
 #reviews {
 	color: #000;
 	font-family: forte;
 	font-style: italic;
-	padding: 0px 15px 0px 5px;
 	text-decoration-style: none;
+	margin-top: 0;
+	margin-left: 5.5%;
 	}
-#about {
+#contact {
+	color: #000000;
 	font-family: forte;
 	font-style: italic;
-	padding: 0px 15px 0px 15px;
-	margin: 0px 5px 0px 1px;
+	float: right;
+	margin-right: 0;
+	box-sizing: border-box;
 }
 #navigation {
-	width: 32%;
-	display: inline-block;
+	width: 33%;
 	float: right;
-	clear: right;
-	background: rgba(0,204,204, .5);
+	background: rgba(0,204,204, .1);
 	margin: 20px 20px;
+}
+#navigation div {
+    display: inline-block;
+    width: 30%;
+    background: none;
+    box-sizing: border-box;
+    margin-right: 0px;
+    max-width: 183px;
+    text-align: center;
 }
 
 #navigation a {	
 	color: #000;
-	float: right;
-	display: inline-block;
+	display: block;
 	font-size: 2em;
-	background: rgba(0,204,204, .5);
-	margin: 5px 15px;
-	padding: 2px 25px;
-	overflow: auto;
+	background: rgba(0,204,204, .7);
+	padding: 10px;
+	/*margin: 5px 15px;
+	overflow: auto;*/
+
 	text-decoration: none;
+	box-sizing: border-box;
 }
 #contact a:hover {
 	color: rgba(255,255,255, .9);
@@ -112,47 +124,6 @@ li {
 #reviews a:hover {
 	color: rgba(255,255,255, .9);
 }
-#buycar {
-	float: right;
-	color: #000;
-	font-family: forte;
-	font-size: 2em;
-	font-style: italic;
-	padding: 0px 5px 0px 5px;
-	text-decoration: none;
-	}
-#sellcar {
-	color: #000000;
-	font-family: forte;
-	font-size: 2em;
-	font-style: italic;
-	padding: 0px 5px 0px 5px;
-	}
-#car {
-	float: right;
-	background: rgba(0,204,204, .7);
-	margin: 15px 10px;
-	padding: 15px 15px;
-		}
-#car a {
-padding: 10px 10px;
-color: black; 
-text-decoration: none;
-	}
-
-#buyauto img {
-	width: 50px;
-	height: auto;
-	display: inline-block;
-}
-#buymoto img {
-	width: 50px;
-	height: auto;
-	display: inline-block;
-}
-header {
-	
-}
 
 header a {
 	color: #000;
@@ -160,6 +131,7 @@ header a {
 	width: 10%;
 	margin: 20px;
 	float: left;
+
 }
 header a:hover {
 	width: 10%;
@@ -177,8 +149,9 @@ header a:hover {
 	width: 50px;
 	height: auto;
 }
-#slogan {text-align: center;
-
+#slogan {
+	clear: both;
+	margin-top: 61px;
 }
 #buymoto {
 	display: inline-block;
@@ -203,42 +176,86 @@ footer {
 	margin: 10px;
 	float: right;
 }
-#adv {
-	width: 100%;
+
+
+
+#cars {
+	margin-top: 200px;
+	margin-left: 60%;
+	display: inline-block;
 }
-#geiko img {
-	height: 50px;
-	width: auto;
+#cars img {width: 100%;
+height: auto;
 }
-#geiko a:hover {
-	color: (0,255,255, .8);
+#cars li {height: 81px;}
+
+#moto {
+	margin-top: 200px;
+	margin-left: 80%;
+	display: inline-block;
+
 }
-#usaa img {
-	height: 50px;
-	width: auto;
-	}
-#progressive img {
-	height: 50px;
-	width: auto;
-	background: rgba(0,255,255, .8);
-	}
-#social {width: 100%;
-display: inline-block;
-float: right;
+#moto img {width: 100%;
+height: auto;
 }
-#social img {
-	height: 50px;
-	width: auto;
+#moto li  {
+	height: 81px;
+}
+#buycars {padding}
+#buycars ul {text-align: center;
+max-width: 10%;
+}
+#buycars a {
+text-decoration: none;
+color: black;
+margin: 10px;
+text-align: center;
+max-width: 10%;
 }
 
+#buycars li {
+width: 100%;
+font-size: 3em;
+background: rgb(0,204,204);
+padding: 50px;
+text-align: center;
+
+}
+#adv img {width: 50px;
+			background-color: grey;
+			margin-top: 15px;
+			display: inline;}
+#adv li {
+	display: inline;
+margin: 15px 15px;}
+#adv ul {
+	display: inline;
+	margin: 1em 1em;}
+
+#adv div {display: inline-block;}
 /*
-1. Link of the header is going through the whole page
-2. I can't separate adv and social blocks
-3. I can't move anything around. Slogan as well.
-4. Why "Forte" font is underlined?
-5. Why "buy and sell" are blue?
+1. #buycar. if use rgba, there are no background
+*/
+
+#buymoto ul {text-align: center;
+max-width: 30%;
+}
+#buymoto a {
+text-decoration: none;
+color: black;
+margin: 10px;
+text-align: center;
+max-width: 50%;
+}
+
+#buymoto li {
+width: 100%;
+font-size: 3em;
+background: rgb(0,204,204);
+padding: 50px;
+text-align: center;
 
 
 
 
-
+ 
