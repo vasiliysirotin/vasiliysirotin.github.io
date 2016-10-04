@@ -85,35 +85,35 @@ ul {width: 80px;
 	font-style: italic;
 	float: right;
 	margin-right: 0;
-	box-sizing: border-box;
 }
 #navigation {
 	width: 33%;
 	float: right;
 	background: rgba(0,204,204, .1);
 	margin: 20px 20px;
+	font-size: 1em;
+	display: inline;
 }
 #navigation div {
     display: inline-block;
-    width: 30%;
+    width: 33%;
+    font-size: 1em;
     background: none;
-    box-sizing: border-box;
-    margin-right: 0px;
+    margin-right: 2%;
+    margin-left: 1.5%;
     max-width: 183px;
     text-align: center;
 }
-
 #navigation a {	
 	color: #000;
 	display: block;
 	font-size: 2em;
-	background: rgba(0,204,204, .7);
+	background: rgba(0,204,204, .6);
 	padding: 10px;
-	/*margin: 5px 15px;
-	overflow: auto;*/
-
 	text-decoration: none;
-	box-sizing: border-box;
+}
+#navigation a:hover {
+	background-color: rgba(0,204,204, .9);
 }
 #contact a:hover {
 	color: rgba(255,255,255, .9);
@@ -124,6 +124,12 @@ ul {width: 80px;
 #reviews a:hover {
 	color: rgba(255,255,255, .9);
 }
+#buycars a:hover {
+	color:rgba(255,255,255, .9);
+}
+#buymoto a:hover {
+	color:rgba(255,255,255, .9);
+}
 
 header a {
 	color: #000;
@@ -131,6 +137,8 @@ header a {
 	width: 10%;
 	margin: 20px;
 	float: left;
+	text-decoration: none;
+	position: absolute;
 
 }
 header a:hover {
@@ -143,15 +151,17 @@ header a:hover {
 	vertical-align: top;
 }
 #logocar {
+	position: absolute;
 	display: inline-block;
 	vertical-align: top;
 	margin: 0;
-	width: 50px;
+	width: 30%;
 	height: auto;
 }
 #slogan {
 	clear: both;
-	margin-top: 61px;
+	padding-top: 200PX;
+	padding-bottom: 	200px;
 }
 #buymoto {
 	display: inline-block;
@@ -181,7 +191,7 @@ footer {
 
 #cars {
 	margin-top: 200px;
-	margin-left: 60%;
+	margin-left: 230px;
 	display: inline-block;
 }
 #cars img {width: 100%;
@@ -191,7 +201,6 @@ height: auto;
 
 #moto {
 	margin-top: 200px;
-	margin-left: 80%;
 	display: inline-block;
 
 }
@@ -201,49 +210,37 @@ height: auto;
 #moto li  {
 	height: 81px;
 }
-#buycars {padding}
 #buycars ul {text-align: center;
 max-width: 10%;
+box-sizing: border-box;
 }
 #buycars a {
 text-decoration: none;
 color: black;
-margin: 10px;
 text-align: center;
 max-width: 10%;
+padding: 30px, 30px, 20px,;
 }
-
 #buycars li {
 width: 100%;
 font-size: 3em;
-background: rgb(0,204,204);
+background: rgba(0,204,204, .6);
 padding: 50px;
 text-align: center;
+margin-bottom: 10px;
 
 }
-#adv img {width: 50px;
-			background-color: grey;
-			margin-top: 15px;
-			display: inline;}
-#adv li {
-	display: inline;
-margin: 15px 15px;}
-#adv ul {
-	display: inline;
-	margin: 1em 1em;}
-
-#adv div {display: inline-block;}
-/*
-1. #buycar. if use rgba, there are no background
-*/
-
+#buycars div {
+}
+/*#buycars li:hover {
+	background-color: rgba(0,204,204, .9)
+}*/
 #buymoto ul {text-align: center;
 max-width: 30%;
 }
 #buymoto a {
 text-decoration: none;
 color: black;
-margin: 10px;
 text-align: center;
 max-width: 50%;
 }
@@ -251,11 +248,88 @@ max-width: 50%;
 #buymoto li {
 width: 100%;
 font-size: 3em;
-background: rgb(0,204,204);
+background: rgba(0,204,204, .6);
 padding: 50px;
 text-align: center;
+margin-bottom: 10px;
+}
+#adv img {width: 2%;
+			background-color: grey;
+			margin-top: 0.5%;
+			}
+#adv li {
+	display: inline;
+	margin: 0px 0px 0px 5px;
+}
+#adv ul {
+	display: inline;
+	margin: 0.1em 0.1em;
+}
+#adv a {
+	text-decoration: none;
+}
+
+#social img {
+width: 2%;
+display: inline;
+text-decoration:none;
+padding-right: 5px;
+
+} 
+#social li {
+	display:inline;
+	text-decoration: none;
+	margin-right: 5px;
+	float: right;
+}
+#social ul {
+	display: inline;
+	text-decoration:none;
+}
+#social a {
+	text-decoration:none;
+}
+
+@media only screen and (max-width: 1895px) {
 
 
+#navigation {
+	float: right;
+	display: block;
+	width: auto;
+	margin: 0;
+	background: none;
+	width: 30%;
+}
+#navigation div {
+display: block;
+margin: 1%;	
+float: left;
+font-size: 0.8em;
+width: 30%;
+}
+#navigation a {
+	display: block;
+	
+}
+h1 {font-size: 2.5em;
+}
+
+h2 {
+	font-size: 0.8em;
+}
 
 
- 
+@media only screen and (max-width: 1600px) {
+
+#navigation div {
+display: block;
+margin: 1%;	
+float: left;
+font-size: 0.5em;
+width: 30%;
+}
+h2 {
+	font-size: 0.5em;
+}
+

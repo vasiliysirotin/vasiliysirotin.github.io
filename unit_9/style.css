@@ -1,0 +1,356 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext);
+
+body {
+background: url("images/alfa.jpg");
+background-size: auto; background-repeat: no-repeat;
+font-family: forte;
+font-size: 16px;
+text-decoration-style: none;
+}
+
+article {
+	font-family: 'great vibes',cursive;
+	font-size: 1.5em;
+	letter-spacing: 2px; 
+	background: rgba(255,255,255, .2);
+	display: inline-block;
+	margin: 0px 0px 100px 200px;
+	padding: 5px 5px 5px 5px;
+}
+article li {
+	font-size: 2em;
+	text-align: left;
+	width: 100%;
+}
+h1 {
+    text-align: center;
+    color: #00cccc;
+    background: rgba(255,255,255, .4);
+    font-style: italic;
+    font-family: forte;
+    letter-spacing: 5px;
+    font-size: 3em; 
+    width: 50%;
+    float: center;
+    margin: 0 auto;
+
+
+   
+}
+h2 {
+	font-family: forte; font-style: italic;
+	margin: 0;
+	font-size: 1em;
+	padding: 1em; 
+
+}
+/*a {
+	color: #000;
+	font-family: forte;
+	font-size: 1em;
+	font-style: italic;
+	text-decoration: none;
+	display: inline-block;	
+}*/
+
+p {
+	text-align: left;
+	font-family: 'great vibes',cursive;
+	font-size: 2em;
+	color: black;
+    margin: 20px 20px 0px 30px;
+    font-weight: 900;
+}
+
+article ul {width: 88%;
+	margin-left:1%;}
+ul {width: 80px;
+	margin-left:300px;}
+     
+#about {
+	font-family: forte;
+	font-style: italic;
+}
+#reviews {
+	color: #000;
+	font-family: forte;
+	font-style: italic;
+	text-decoration-style: none;
+	margin-top: 0;
+	margin-left: 5.5%;
+	}
+#contact {
+	color: #000000;
+	font-family: forte;
+	font-style: italic;
+	float: right;
+	margin-right: 0;
+}
+#navigation {
+	width: 33%;
+	float: right;
+	background: rgba(0,204,204, .1);
+	margin: 20px 20px;
+	font-size: 1em;
+	display: inline;
+}
+#navigation div {
+    display: inline-block;
+    width: 33%;
+    font-size: 1em;
+    background: none;
+    margin-right: 2%;
+    margin-left: 1.5%;
+    max-width: 183px;
+    text-align: center;
+}
+#navigation a {	
+	color: #000;
+	display: block;
+	font-size: 2em;
+	background: rgba(0,204,204, .6);
+	padding: 10px;
+	text-decoration: none;
+}
+#navigation a:hover {
+	background-color: rgba(0,204,204, .9);
+}
+#contact a:hover {
+	color: rgba(255,255,255, .9);
+}
+#about a:hover {
+	color: rgba(255,255,255, .9);
+}
+#reviews a:hover {
+	color: rgba(255,255,255, .9);
+}
+#buycars a:hover {
+	color:rgba(255,255,255, .9);
+}
+#buymoto a:hover {
+	color:rgba(255,255,255, .9);
+}
+
+header a {
+	color: #000;
+	background: rgba(0,204,204, .1);
+	width: 10%;
+	margin: 20px;
+	float: left;
+	text-decoration: none;
+	position: absolute;
+
+}
+header a:hover {
+	width: 10%;
+	background-color: rgba(0,204,204, .9);
+	float: left;
+}
+#text {
+	display: inline-block;
+	vertical-align: top;
+}
+#logocar {
+	position: absolute;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	width: 30%;
+	height: auto;
+}
+#slogan {
+	clear: both;
+	padding-top: 200PX;
+	padding-bottom: 	200px;
+}
+#buymoto {
+	display: inline-block;
+	clear: left;
+}
+
+#truck {
+	width: 50px;
+	height: auto;
+}
+#sedan {
+	width: 100px;
+	height: auto;
+}
+#van img {
+	width: 50px
+ 	height: auto;
+ }
+footer {
+	display: inline-block;
+	vertical-align: bottom;
+	margin: 10px;
+	float: right;
+}
+#buycars ul {text-align: center;
+max-width: 10%;
+box-sizing: border-box;
+}
+#buycars a {
+text-decoration: none;
+color: black;
+text-align: center;
+max-width: 10%;
+padding: 30px, 30px, 20px,;
+}
+#buycars li {
+width: 100%;
+font-size: 3em;
+background: rgba(0,204,204, .6);
+padding: 50px;
+text-align: center;
+margin-bottom: 10px;
+
+}
+#buycars div {
+}
+
+
+#cars {
+	margin-top: 200px;
+	margin-left: 230px;
+	display: inline-block;
+}
+#cars img {width: 100%;
+height: auto;
+}
+#cars li {height: 81px;}
+
+#moto {
+	margin-top: 200px;
+	display: inline-block;
+
+}
+#moto img {width: 100%;
+height: auto;
+}
+#moto li  {
+	height: 81px;
+}
+
+
+#buymoto ul {text-align: center;
+max-width: 30%;
+}
+#buymoto a {
+text-decoration: none;
+color: black;
+text-align: center;
+max-width: 50%;
+}
+
+#buymoto li {
+width: 100%;
+font-size: 3em;
+background: rgba(0,204,204, .6);
+padding: 50px;
+text-align: center;
+margin-bottom: 10px;
+}
+#adv img {width: 2%;
+			background-color: grey;
+			margin-top: 0.5%;
+			}
+#adv li {
+	display: inline;
+	margin: 0px 0px 0px 5px;
+}
+#adv ul {
+	display: inline;
+	margin: 0.1em 0.1em;
+}
+#adv a {
+	text-decoration: none;
+}
+
+#social img {
+width: 2.5%;
+display: inline;
+text-decoration:none;
+padding-right: 5px;
+float: right;
+
+} 
+#social li {
+	display:inline;
+	text-decoration: none;
+	margin-right: 5px;
+	
+}
+#social ul {
+	display: inline;
+	text-decoration:none;
+
+}
+#social a {
+	text-decoration:none;
+}
+
+@media only screen and (max-width: 1895px) {
+
+
+#navigation {
+	float: right;
+	display: block;
+	width: auto;
+	margin: 0;
+	background: none;
+	width: 30%;
+}
+#navigation div {
+display: block;
+margin: 1%;	
+float: left;
+font-size: 0.9em;
+width: 30%;
+}
+#navigation a {
+	display: block;
+	
+}
+h1 {font-size: 2.5em;
+}
+
+h2 {
+	font-size: 0.8em;
+}
+
+
+@media only screen and (max-width: 1600px) {
+
+#navigation div {
+display: block;
+margin: 1%;	
+float: left;
+font-size: 0.7em;
+width: 30%;
+}
+h2 {
+	font-size: 0.7em;
+}
+h1 {
+	font-size: 2em;
+}
+#buycars {font-size: 0.7em;}
+#buymoto {font-size: 0.7em;}
+#cars img {width: 70%;}
+#moto img {width: 70%;}
+
+@media only screen and (max-width: 1000px) {
+	#navigation div {
+		font-size: 0.5em;
+		margin: 6%;
+		width: 40%;
+	}
+article {
+	font-size: 0.7em;
+	margin-left: 10px;
+}
+h1 {font-size: 1em;
+}
+}
